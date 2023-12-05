@@ -1,0 +1,227 @@
+#heading1 {
+    color: white;
+    font-style: bold;
+}
+
+h1 {
+    color: white;
+    font-weight: 850;
+}
+
+#heading2 {
+    color: white;
+    font-style: bold;
+}
+
+h2 {
+    color: white;
+    font-weight: 600;
+}
+
+#heading3 {
+    color: white;
+    font-style: bold;
+}
+
+h3 {
+    color: white;
+    font-weight: 850;
+}
+
+#heading4 {
+    color: #9f9f2d;
+    font-style: bold;
+}
+
+h4 {
+    color: #e69d1e;
+    font-weight: 850;
+}
+
+#heading5 {
+    color: white;
+    font-style: bold;
+}
+
+h5 {
+    color: white;
+    font-weight: 850;
+}
+
+#myNavBar li a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+#myMenu {
+    grid-area: m;
+    margin-top: -10px;
+}
+
+#myMenu li a {
+    display: white;
+    text-decoration: none;
+    padding: 15px;
+    color: blue;
+}
+
+#myMenu li a:hover {
+    background-color: green;
+    color: black;
+}
+
+#myMenu ul {
+    list-style-type: none;
+    background-color: #cc;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+#myContent {
+    grid-area: c;
+    padding: 4px 12px;
+}
+
+#myContent {
+    overflow: scroll;
+    width: 800px;
+    height: 850px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#myTooter {
+    grid-area: f;
+    background-color: green;
+    color: white;
+    padding: 18px 0;
+    text-align: right;
+    margin-top: -10px;
+}
+
+body {
+    margin: 0;
+}
+
+.myContainer {
+    display: grid;
+    grid-template-areas: 'h h h h' 'n n n n' 'm c c c' 'f f f f';
+}
+
+#myHeader {
+    grid-area: h;
+    background-color: olivedrab;
+    color: whitesmoke;
+    padding: 18px 0;
+    text-align: center;
+    font-size: large;
+}
+
+#myHeader {
+    display: inline;
+}
+
+.company {
+    float: left;
+    padding-left: 14px;
+}
+
+.search {
+    float: right;
+    padding-right: 14px;
+}
+
+.search input {
+    width: 80px;
+    border-radius: 10px;
+    padding: 4px 6px;
+    margin-right: 8px;
+    background-color: solid #d9c4d5;
+    border: 2px solid #ed9ccf;
+}
+
+#myMenu {
+    grid-area: m;
+    margin-top: -15px;
+}
+
+#myMenu li a {
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+}
+
+#myMenu li a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+#myMenu ul {
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+    height: 900px;
+}
+
+#myContent {
+    grid-area: c;
+    padding: 4px 12px;
+}
+
+#myContent {
+    overflow: scroll;
+    width: 1500px;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#myFooter {
+    grid-area: f;
+    background-color: olivedrab;
+    color: black;
+    padding: 18px 0;
+    text-align: right;
+    margin-top: -15px;
+}
+
+#myNavBar {
+    grid-area: n;
+    background-color: black;
+    color: #2f8c92;
+}
+
+#myNavBar ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#myNavBar li {
+    float: left;
+}
+
+#myNavBar li a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#myNavBar li a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+#myNavBar .right {
+    float: right;
+}
+
+</style>
